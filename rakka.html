@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakka: Grocery Recall & Allergen Scanner | Twin Ravens Digital</title>
+  <meta name="description" content="Rakka scans groceries and receipts against FDA and USDA recalls and your family's allergens. Privacy-first, no accounts, works offline.">
+  <link rel="icon" type="image/png" href="twin_ravens_icon.png">
+  <link rel="apple-touch-icon" href="twin_ravens_icon.png">
+  <link rel="canonical" href="https://twinravensdigital.com/rakka.html">
+  <meta property="og:title" content="Rakka: Grocery Recall & Allergen Scanner | Twin Ravens Digital">
+  <meta property="og:description" content="Rakka scans groceries and receipts against FDA and USDA recalls and your family's allergens. Privacy-first, no accounts, works offline.">
+  <meta property="og:image" content="https://twinravensdigital.com/rakka_mascot.webp">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f4fafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <style>body{font-family:'Plus Jakarta Sans',system-ui,sans-serif} h1,h2,h3,.font-display{font-family:'Outfit','Plus Jakarta Sans',sans-serif}</style>
+</head>
+<body class="min-h-screen bg-[#f4fafa] text-slate-700 selection:bg-teal-200 flex flex-col">
+<body class="min-h-screen bg-[#f4fafa] text-slate-700 selection:bg-teal-200 flex flex-col">
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/85 border-b border-teal-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2.5">
+        <img src="twin_ravens_icon.png" width="36" height="36" alt="Twin Ravens Digital logo" class="w-9 h-9 rounded-xl">
+        <span class="font-display font-extrabold text-lg sm:text-xl text-slate-900 tracking-tight">Twin Ravens <span class="text-teal-600">Digital</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-600">
+        <a href="index.html#apps" class="hover:text-teal-700">Apps</a>
+        <a href="index.html#principles" class="hover:text-teal-700">How we build</a>
+        <a href="index.html#studio" class="hover:text-teal-700">About</a>
+        <a href="support.html" class="hover:text-teal-700">Support</a>
+      </nav>
+      <a href="support.html" class="px-4 py-2 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-bold text-sm transition">Get help</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative overflow-hidden">
+      <div class="absolute -top-24 -right-24 w-[480px] h-[480px] rounded-full bg-teal-100/70 blur-3xl pointer-events-none"></div>
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-14 sm:py-20 grid md:grid-cols-2 gap-10 items-center relative">
+        <div>
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold">In private testing &bull; iOS &amp; Android coming soon</span>
+          <h1 class="text-4xl sm:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.05] mt-5">Know what's in your cart <span class="text-teal-600">before it's on your table.</span></h1>
+          <p class="text-lg text-slate-600 mt-5 max-w-xl leading-relaxed">Rakka is the grocery guardian that checks every barcode and receipt against FDA and USDA recalls, your family's allergens, and food additives you want to avoid.</p>
+          <div class="flex flex-wrap gap-3 mt-8">
+            <a href="#features" class="px-6 py-3.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-bold transition">See what Rakka does</a>
+            <a href="support.html" class="px-6 py-3.5 rounded-xl bg-white border border-teal-200 hover:border-teal-400 text-teal-800 font-bold transition">Support</a>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-gradient-to-br from-teal-100 to-white border border-teal-100 shadow-xl flex items-end justify-center overflow-hidden">
+            <img src="rakka_mascot.webp" width="384" height="384" alt="Rakka the Great Dane holding a carrot, wearing a teal collar with a safety shield tag" class="w-full h-full object-contain">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="py-16 sm:py-20 bg-white border-y border-teal-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="max-w-2xl">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Three checks in one scan</h2>
+          <p class="text-slate-600 mt-3">Point your phone at a barcode or receipt and get a clear answer in seconds.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6 mt-10">
+        <div class="rounded-3xl bg-white border border-teal-100 p-7 shadow-sm">
+          <div class="w-12 h-12 rounded-2xl bg-rose-100 flex items-center justify-center text-2xl mb-5">⚠️</div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Recall alerts</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Checks openFDA and USDA-FSIS recall notices, and keeps a copy on your phone so scans keep working with a weak signal or none at all.</p>
+        </div>
+        <div class="rounded-3xl bg-white border border-teal-100 p-7 shadow-sm">
+          <div class="w-12 h-12 rounded-2xl bg-amber-100 flex items-center justify-center text-2xl mb-5">🛡️</div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Allergen guard</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Screens for 12 common allergens: gluten, dairy, peanuts, tree nuts, soy, eggs, shellfish, fish, sesame, corn, sulfites and yeast. One profile is free; Plus adds family profiles.</p>
+        </div>
+        <div class="rounded-3xl bg-white border border-teal-100 p-7 shadow-sm">
+          <div class="w-12 h-12 rounded-2xl bg-teal-100 flex items-center justify-center text-2xl mb-5">🧪</div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Additive screener</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Flags 37 synthetic dyes and additives of concern, with clear notes on where each one is restricted, including California AB 418 and EU guidance.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="py-16 sm:py-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Simple on purpose</h2>
+          <p class="text-slate-600 mt-3 max-w-md">No accounts and no setup maze. Rakka is built to be quick in the store aisle.</p>
+        </div>
+        <div class="space-y-7">
+        <div class="flex gap-4">
+          <div class="shrink-0 w-10 h-10 rounded-full bg-teal-600 text-white font-display font-bold flex items-center justify-center">1</div>
+          <div><h3 class="font-bold text-slate-900">Scan</h3><p class="text-slate-600 text-sm mt-1 leading-relaxed">Scan a barcode, or a receipt after you shop.</p></div>
+        </div>
+        <div class="flex gap-4">
+          <div class="shrink-0 w-10 h-10 rounded-full bg-teal-600 text-white font-display font-bold flex items-center justify-center">2</div>
+          <div><h3 class="font-bold text-slate-900">Check</h3><p class="text-slate-600 text-sm mt-1 leading-relaxed">Rakka compares the product with recalls, your allergens and additives.</p></div>
+        </div>
+        <div class="flex gap-4">
+          <div class="shrink-0 w-10 h-10 rounded-full bg-teal-600 text-white font-display font-bold flex items-center justify-center">3</div>
+          <div><h3 class="font-bold text-slate-900">Stay informed</h3><p class="text-slate-600 text-sm mt-1 leading-relaxed">Items go on your watchlist, and Rakka keeps watching them for new recalls.</p></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="py-16 sm:py-20 bg-teal-700 text-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Privacy-first by design</h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-8 text-teal-50 text-sm leading-relaxed">
+          <div><h3 class="font-bold text-white text-lg mb-1">No accounts, no ads</h3><p>You never sign up, and we never sell your data. Your family profiles and watchlist are stored on your device.</p></div>
+          <div><h3 class="font-bold text-white text-lg mb-1">Encrypted household sync</h3><p>Sharing with a partner is optional. Profiles and watchlists are encrypted on your phone before they leave it, so we cannot read them.</p></div>
+          <div><h3 class="font-bold text-white text-lg mb-1">Honest sourcing</h3><p>Recall alerts come from official federal sources (openFDA and USDA-FSIS), not rumors. The <a href="https://privacy.twinravensdigital.com" class="underline font-semibold">privacy policy</a> lists exactly what is sent to our servers.</p></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-white border-t border-teal-100 mt-auto">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex flex-col md:flex-row justify-between gap-8">
+      <div class="flex items-start gap-3">
+        <img src="twin_ravens_icon.png" width="44" height="44" alt="Twin Ravens Digital logo" class="w-11 h-11 rounded-xl">
+        <div class="text-sm">
+          <p class="font-display font-bold text-slate-900 text-base">Twin Ravens Digital LLC</p>
+          <p class="text-slate-500">Ohio limited liability company</p>
+          <p class="text-slate-500">6545 Market Ave. North, Ste 100, Canton, OH 44721</p>
+        </div>
+      </div>
+      <div class="text-sm flex flex-col md:items-end gap-1.5 font-semibold">
+        <a href="mailto:contact@twinravensdigital.com" class="text-teal-700 hover:underline">contact@twinravensdigital.com</a>
+        <a href="support.html" class="text-slate-600 hover:text-teal-700">Support</a>
+        <a href="https://privacy.twinravensdigital.com" class="text-slate-600 hover:text-teal-700">Privacy Policy &amp; Terms</a>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 pb-8 text-xs text-slate-500 leading-relaxed">
+      <p>&copy; 2026 Twin Ravens Digital LLC. All rights reserved.</p>
+      <p class="mt-2 max-w-3xl">Our apps are independent informational tools. Rakka's product checks use openFDA enforcement reports, USDA-FSIS safety notices and manufacturer label declarations, and can be incomplete or out of date. Always read the printed package, and talk to your doctor about medical or allergy questions. Our apps do not provide medical advice. Not affiliated with the FDA, USDA or any trademark owners.</p>
+    </div>
+  </footer>
+</body>
+</html>
