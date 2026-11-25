@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schooled: AI Aquarium Helper | Twin Ravens Digital</title>
+  <meta name="description" content="Schooled identifies fish from a photo, tracks your tanks and water, and helps you plan. Privacy-first, no accounts.">
+  <link rel="icon" type="image/png" href="twin_ravens_icon.png">
+  <link rel="apple-touch-icon" href="twin_ravens_icon.png">
+  <link rel="canonical" href="https://twinravensdigital.com/schooled.html">
+  <meta property="og:title" content="Schooled: AI Aquarium Helper | Twin Ravens Digital">
+  <meta property="og:description" content="Schooled identifies fish from a photo, tracks your tanks and water, and helps you plan. Privacy-first, no accounts.">
+  <meta property="og:image" content="https://twinravensdigital.com/schooled_icon.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f4fafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <style>body{font-family:'Plus Jakarta Sans',system-ui,sans-serif} h1,h2,h3,.font-display{font-family:'Outfit','Plus Jakarta Sans',sans-serif}</style>
+</head>
+<body class="min-h-screen bg-[#f4fafa] text-slate-700 selection:bg-teal-200 flex flex-col">
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/85 border-b border-teal-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2.5">
+        <img src="twin_ravens_icon.png" width="36" height="36" alt="Twin Ravens Digital logo" class="w-9 h-9 rounded-xl">
+        <span class="font-display font-extrabold text-lg sm:text-xl text-slate-900 tracking-tight">Twin Ravens <span class="text-teal-600">Digital</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-600">
+        <a href="index.html#apps" class="hover:text-teal-700">Apps</a>
+        <a href="index.html#principles" class="hover:text-teal-700">How we build</a>
+        <a href="index.html#studio" class="hover:text-teal-700">About</a>
+        <a href="support.html" class="hover:text-teal-700">Support</a>
+      </nav>
+      <a href="support.html" class="px-4 py-2 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-bold text-sm transition">Get help</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative overflow-hidden">
+      <div class="absolute -top-24 -right-24 w-[480px] h-[480px] rounded-full bg-teal-100/70 blur-3xl pointer-events-none"></div>
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-14 sm:py-20 grid md:grid-cols-2 gap-10 items-center relative">
+        <div>
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold">In testing &bull; iOS &amp; Android coming soon</span>
+          <h1 class="text-4xl sm:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.05] mt-5">Your aquarium, <span class="text-teal-600">schooled.</span></h1>
+          <p class="text-lg text-slate-600 mt-5 max-w-xl leading-relaxed">Schooled is an AI helper for fish keepers. Snap a photo to identify your fish, track water and reminders, plan new tanks and ask questions about your own setup.</p>
+          <div class="flex flex-wrap gap-3 mt-8">
+            <a href="https://ericwoodliff54.github.io/schooled/" class="px-6 py-3.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-bold transition">Open the web app</a>
+            <a href="support.html#schooled" class="px-6 py-3.5 rounded-xl bg-white border border-teal-200 hover:border-teal-400 text-teal-800 font-bold transition">Support</a>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-br from-teal-100 to-white border border-teal-100 shadow-xl flex items-center justify-center overflow-hidden">
+            <img src="schooled_icon.png" width="192" height="192" alt="Schooled app icon" class="w-40 h-40 sm:w-48 sm:h-48 rounded-3xl">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="py-16 sm:py-20 bg-white border-y border-teal-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="max-w-2xl">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Everything for your tank, in one place</h2>
+          <p class="text-slate-600 mt-3">Built for beginners and experienced hobbyists, freshwater and saltwater.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6 mt-10">
+        <div class="rounded-3xl bg-white border border-teal-100 p-7 shadow-sm">
+          <div class="w-12 h-12 rounded-2xl bg-teal-100 flex items-center justify-center text-2xl mb-5">🐠</div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Fish ID from a photo</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Photograph your tank or a single fish and Schooled suggests species, with care notes. You confirm or correct every name before it is saved.</p>
+        </div>
+        <div class="rounded-3xl bg-white border border-teal-100 p-7 shadow-sm">
+          <div class="w-12 h-12 rounded-2xl bg-sky-100 flex items-center justify-center text-2xl mb-5">💧</div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Water and reminders</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Log water tests, set maintenance reminders and keep progress photos of each tank, all stored on your phone.</p>
+        </div>
+        <div class="rounded-3xl bg-white border border-teal-100 p-7 shadow-sm">
+          <div class="w-12 h-12 rounded-2xl bg-amber-100 flex items-center justify-center text-2xl mb-5">🧭</div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Plan and ask</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">Dream Tank helps plan a new setup and suggests equipment. Get Schooled answers questions about your own tank.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="py-16 sm:py-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Simple on purpose</h2>
+          <p class="text-slate-600 mt-3 max-w-md">No accounts and no sign-up. Open it and add your first tank.</p>
+        </div>
+        <div class="space-y-7">
+        <div class="flex gap-4">
+          <div class="shrink-0 w-10 h-10 rounded-full bg-teal-600 text-white font-display font-bold flex items-center justify-center">1</div>
+          <div><h3 class="font-bold text-slate-900">Add your tank</h3><p class="text-slate-600 text-sm mt-1 leading-relaxed">Name it, set the size and type, and add a photo.</p></div>
+        </div>
+        <div class="flex gap-4">
+          <div class="shrink-0 w-10 h-10 rounded-full bg-teal-600 text-white font-display font-bold flex items-center justify-center">2</div>
+          <div><h3 class="font-bold text-slate-900">Scan your fish</h3><p class="text-slate-600 text-sm mt-1 leading-relaxed">Take a photo and confirm what Schooled finds.</p></div>
+        </div>
+        <div class="flex gap-4">
+          <div class="shrink-0 w-10 h-10 rounded-full bg-teal-600 text-white font-display font-bold flex items-center justify-center">3</div>
+          <div><h3 class="font-bold text-slate-900">Keep it healthy</h3><p class="text-slate-600 text-sm mt-1 leading-relaxed">Track water, set reminders and ask for advice.</p></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="py-16 sm:py-20 bg-teal-700 text-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Privacy-first by design</h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-8 text-teal-50 text-sm leading-relaxed">
+          <div><h3 class="font-bold text-white text-lg mb-1">No accounts, no ads</h3><p>You never sign up, and we never sell your data. Your tanks, fish, notes and photos stay on your device.</p></div>
+          <div><h3 class="font-bold text-white text-lg mb-1">You choose what is shared</h3><p>Photos and questions go to our server only when you use an AI feature. Helping improve fish ID with small cropped fish photos is optional and off until you say yes.</p></div>
+          <div><h3 class="font-bold text-white text-lg mb-1">Honest about AI</h3><p>Identification and care notes are estimates and can be wrong. Check with a trusted fish store or vet before buying or treating livestock. Read the <a href="schooled-privacy.html" class="underline font-semibold">privacy policy and terms</a>.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-white border-t border-teal-100 mt-auto">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex flex-col md:flex-row justify-between gap-8">
+      <div class="flex items-start gap-3">
+        <img src="twin_ravens_icon.png" width="44" height="44" alt="Twin Ravens Digital logo" class="w-11 h-11 rounded-xl">
+        <div class="text-sm">
+          <p class="font-display font-bold text-slate-900 text-base">Twin Ravens Digital LLC</p>
+          <p class="text-slate-500">Ohio limited liability company</p>
+          <p class="text-slate-500">6545 Market Ave. North, Ste 100, Canton, OH 44721</p>
+        </div>
+      </div>
+      <div class="text-sm flex flex-col md:items-end gap-1.5 font-semibold">
+        <a href="mailto:contact@twinravensdigital.com" class="text-teal-700 hover:underline">contact@twinravensdigital.com</a>
+        <a href="support.html" class="text-slate-600 hover:text-teal-700">Support</a>
+        <a href="https://privacy.twinravensdigital.com" class="text-slate-600 hover:text-teal-700">Rakka Privacy Policy &amp; Terms</a>
+        <a href="schooled-privacy.html" class="text-slate-600 hover:text-teal-700">Schooled Privacy Policy &amp; Terms</a>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 pb-8 text-xs text-slate-500 leading-relaxed">
+      <p>&copy; 2026 Twin Ravens Digital LLC. All rights reserved.</p>
+      <p class="mt-2 max-w-3xl">Our apps are independent informational tools. Schooled's fish identification, care estimates and product ideas are AI-generated estimates, not veterinary advice. Rakka's product checks use openFDA enforcement reports, USDA-FSIS safety notices and manufacturer label declarations, and can be incomplete or out of date. Always read the printed package, and talk to your doctor about medical or allergy questions. Our apps do not provide medical advice. Not affiliated with the FDA, USDA or any trademark owners.</p>
+    </div>
+  </footer>
+</body>
+</html>
