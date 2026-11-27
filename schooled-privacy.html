@@ -41,10 +41,10 @@
       <div class="max-w-3xl mx-auto px-4 sm:px-6">
         <span class="text-xs font-bold uppercase tracking-widest text-teal-700">Official Legal Notice</span>
         <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight mt-2">Schooled: Privacy Policy and Terms of Use</h1>
-<p class="text-sm text-slate-500 mt-3">Version 1.0 · Effective November 24, 2026 · Applies to the Schooled app, published by Twin Ravens Digital LLC ("we", "us")</p>
+<p class="text-sm text-slate-500 mt-3">Version 1.1 · Effective November 27, 2026 · Applies to the Schooled app, published by Twin Ravens Digital LLC ("we", "us")</p>
 
 <h2 id="short" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">1. In short</h2>
-<p class="mt-3 leading-relaxed">Schooled has no accounts, no ads and no trackers. Your tanks, fish, notes and photos stay on your device. Photos and text are sent to our server only when you use a feature that needs AI (scanning a tank or fish, testing water, asking Get Schooled, or Dream Tank). We do not sell your data.</p>
+<p class="mt-3 leading-relaxed">Schooled has no accounts, no ads and no trackers. Your tanks, fish, notes and photos stay on your device. Photos and text are sent to our server and to Google's Gemini AI only when you use a feature that needs AI (scanning a tank or fish, testing water, asking Get Schooled, or Dream Tank), and only after you allow it. Small cropped fish photos are shared to improve fish ID unless you turn that off in Settings. Schooled is for people 18 and over. We do not sell your data.</p>
 
 <h2 id="notcollected" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">2. What we do not collect</h2>
 <p class="mt-3 leading-relaxed">We do not ask for your name or email to use the app. We do not use advertising or analytics trackers, and we do not collect your location or contacts.</p>
@@ -55,19 +55,24 @@
 <h2 id="sent" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">4. What is sent, and when</h2>
 <p class="mt-3 leading-relaxed">When you use an AI feature, the app sends the request to our server on Cloudflare, which passes it to Google's Gemini service and returns the answer. What is sent depends on the feature:</p>
 <ul class="list-disc pl-6 space-y-2 mt-3">
-<li><strong>Tank scan and Fish Check:</strong> the photo, the names of fish already in the tank, and the tank type.</li>
+<li><strong>Tank scan and Fish Check:</strong> the photo, the names of fish already in the tank, the tank type and the tank size.</li>
 <li><strong>Water test:</strong> the photo of the test strip or kit.</li>
-<li><strong>Get Schooled:</strong> your question, a summary of the selected tank (name, type, size, filter, notes, livestock) and an optional photo.</li>
+<li><strong>Get Schooled:</strong> your question, a summary of the selected tank (its name, type, size, filter, your notes, and the fish and other livestock in it) and an optional photo. Anything you type into a name or note field is included, so please do not put personal details there.</li>
 <li><strong>Dream Tank:</strong> your description, tank size and type, and an optional photo.</li>
 <li><strong>Care estimates:</strong> the species name only. Answers are cached on our server and shared, with no personal data attached.</li>
 </ul>
-<p class="mt-3 leading-relaxed">We do not keep these photos or questions after the answer is returned. Google processes them under its own terms for the Gemini API.</p>
-<p class="mt-3 leading-relaxed">To enforce fair-use limits, the app sends a random device code (not linked to your name) and our server keeps a usage counter for it for up to about 40 days. Short-lived network address checks protect against abuse and are not stored.</p>
+<p class="mt-3 leading-relaxed">Our server does not keep these photos or questions after the answer is returned (apart from the optional fish crops in section 5). Google processes them under its own terms for the Gemini API.</p>
+<p class="mt-3 leading-relaxed">To enforce fair-use limits, the app sends a random device code (not linked to your name) and our server keeps a usage counter for it for up to about 40 days. To protect against abuse, our server also keeps a counter for your network (IP) address, but only as a one-way salted hash, never the address itself, for up to about 40 days. We cannot read an address back from it.</p>
 
-<h2 id="photos" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">5. Optional: helping improve fish ID</h2>
-<p class="mt-3 leading-relaxed">If you choose Yes when asked, then when you add a fish to a tank Schooled sends a small cropped photo of just that fish, with the name you confirmed, to a shared collection used to improve fish identification for everyone. We never send your whole tank photo, tank names, notes, location or account details. Each crop carries only a one-way hashed device code, so it cannot be traced back to you. Because of that, we cannot find and delete one person's crops on request. You can turn this off at any time in Settings; that stops future sharing. We do not sell these photos.</p>
+<h2 id="ai" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">5. AI processing and your permission</h2>
+<p class="mt-3 leading-relaxed">Fish Check, tank scans, the water test, Get Schooled and Dream Tank are powered by Google's Gemini AI. The first time you use one, Schooled asks whether you allow it. If you choose Allow, the information listed in section 4 for that feature is sent through our server to Google for processing. If you choose Not now, nothing is sent and those features stay off. You can change your choice at any time in Settings under AI features. Turning AI off does not affect the rest of the app.</p>
+<p class="mt-3 leading-relaxed">Photos and text you send may contain personal information, such as people, pets or details visible in the background of a photo, or things you type in notes. Please frame photos on your fish and tank only. Do not send photos of people or anything you would not want processed by an AI service.</p>
+<p class="mt-3 leading-relaxed">Our server and Google may be located in the United States or other countries, so your information may be processed outside the country where you live.</p>
 
-<h2 id="third" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">6. Third parties</h2>
+<h2 id="photos" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">6. Helping improve fish ID</h2>
+<p class="mt-3 leading-relaxed">This sharing is on by default. When you add a fish to a tank, Schooled sends a small cropped photo of just that fish, with the name you confirmed, to a shared collection used to improve fish identification for everyone. You can turn it off at any time in Settings. We never send your whole tank photo, tank names, notes, location or account details. Each crop carries only a one-way hashed device code, so it cannot be traced back to you. Because of that, we cannot find and delete one person's crops on request. Turning it off stops future sharing. Crops already shared are kept for as long as they remain useful for improving fish ID, and we do not sell them. A fish photo can occasionally include something besides the fish, which is another reason to frame photos on your fish only.</p>
+
+<h2 id="third" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">7. Third parties</h2>
 <ul class="list-disc pl-6 space-y-2 mt-3">
 <li><strong>Cloudflare</strong> hosts our server and storage.</li>
 <li><strong>Google (Gemini API)</strong> processes AI requests.</li>
@@ -76,13 +81,13 @@
 <li><strong>Apple and Google</strong> handle app downloads and, if we offer subscriptions, billing. We may use RevenueCat to manage subscription status; it receives purchase information, not your tank data.</li>
 </ul>
 
-<h2 id="choices" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">7. Your choices and deleting data</h2>
-<p class="mt-3 leading-relaxed">You can delete everything stored on your device by removing the app or clearing its data. You can turn off fish photo sharing in Settings. For questions about data we may hold, contact us below.</p>
+<h2 id="choices" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">8. Your choices and deleting data</h2>
+<p class="mt-3 leading-relaxed">You can delete everything stored on your device by removing the app or clearing its data. You can turn off AI features and fish photo sharing in Settings. Because we have no accounts and keep no name or email, we usually cannot identify data as yours; if you believe we hold personal information about you, or you want to ask about access, correction or deletion, contact us below and we will respond as required by the law that applies to you. You may also have rights to complain to your local data protection authority.</p>
 
-<h2 id="children" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">8. Children</h2>
-<p class="mt-3 leading-relaxed">Schooled is not directed to children under 13, and we do not knowingly collect personal information from them.</p>
+<h2 id="children" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">9. Age requirement</h2>
+<p class="mt-3 leading-relaxed">Schooled is for people 18 and over. It is not directed to children, and we do not knowingly collect personal information from anyone under 18. If you believe a child has used the app, contact us and we will delete what we can.</p>
 
-<h2 id="terms" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">9. Terms of Use</h2>
+<h2 id="terms" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">10. Terms of Use</h2>
 <p class="mt-3 leading-relaxed">By using Schooled you agree to these terms.</p>
 <ul class="list-disc pl-6 space-y-2 mt-3">
 <li><strong>Information only.</strong> Schooled provides general information. It is not veterinary, professional or scientific advice.</li>
@@ -90,11 +95,11 @@
 <li><strong>Products.</strong> Product suggestions are ideas, not endorsements. We are not affiliated with the brands shown unless stated.</li>
 <li><strong>Personal use.</strong> Use the app for your own aquariums. Do not bypass usage limits, probe or attack the service, or use it to build a competing dataset.</li>
 <li><strong>No warranty.</strong> The app is provided "as is" without warranties. To the fullest extent allowed by law, Twin Ravens Digital LLC is not liable for losses, including loss of fish, plants, equipment or data, arising from use of the app.</li>
-<li><strong>Changes.</strong> We may update the app, limits or these terms. The version and date above show the current text.</li>
+<li><strong>Changes.</strong> We may update the app, limits or these terms, and this policy. The version and date above show the current text. If a change affects what is sent or shared, we will ask for your permission again in the app.</li>
 <li><strong>Governing law.</strong> These terms are governed by the laws of the State of Ohio, USA.</li>
 </ul>
 
-<h2 id="contact" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">10. Contact</h2>
+<h2 id="contact" class="text-2xl font-extrabold text-slate-900 mt-10 scroll-mt-20">11. Contact</h2>
 <p class="mt-3 leading-relaxed">Twin Ravens Digital LLC · 6545 Market Ave. North, Ste 100, Canton, OH 44721 · <a class="text-teal-700 font-semibold hover:underline" href="mailto:contact@twinravensdigital.com">contact@twinravensdigital.com</a></p>
 
       </div>
